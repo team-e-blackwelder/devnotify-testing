@@ -1,5 +1,5 @@
 name: passing-workflow
-on: [pull_request_comment]
+on: [issue_comment]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
