@@ -1,7 +1,7 @@
 name: failing-workflow
 on: [pull_request_review_comment]
 jobs:
-  check-bats-version:
+  blow-up-now:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
