@@ -1,7 +1,7 @@
 name: passing-workflow
 on: [issue_comment]
 jobs:
-  check-bats-version:
+  say-hello:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
